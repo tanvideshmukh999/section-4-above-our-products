@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+   
+    display: flex;
+    /* justify-content: space-around; */
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  .card h3 {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .card p {
+    margin-top: 5px;
+    color: #555;
+  }
+  
+  .blue-background {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+  }
